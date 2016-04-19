@@ -2,17 +2,45 @@
 
 by *Jordi Pujol Ahulló* 
 
-[@jpahullo](http://twitter.com/jpahullo)
+[@jpahullo](http://twitter.com/jpahullo) | Working at [URV - SREd](http://www.sre.urv.cat)
 
-Presented on [2016-04-20](http://www.meetup.com/Tarragona-Developers-Meetup/events/229781981/)
+Presented on [Meetup's 2016-04-20](http://www.meetup.com/Tarragona-Developers-Meetup/events/229781981/)
 
-[Tarragona Developers Meetup](http://www.meetup.com/Tarragona-Developers-Meetup/) 
-
-[@tgndevs](http://twitter.com/tgndevs)
+[@tgndevs](http://twitter.com/tgndevs) | [Tarragona Developers Meetup](http://www.meetup.com/Tarragona-Developers-Meetup/) 
 
 ----
 
-## Project manager
+# Why Gitlab?
+
+Former project managers:
+* [Bugzilla](https://www.bugzilla.org/) - used at SREd prior my arrival.
+* [Redmine](http://www.redmine.org/):
+ * Good experience
+ * Project management: wikis, issues, labels, issue's status
+
+But, by 2013 we were needing more:
+
+### continuous integration!
+
+---
+
+# But... wait!
+
+Only you at URV - SREd?
+
+---
+
+# But... wait!
+
+Only you at URV - SREd?
+
+Nope... [Stack Overflow also uses Gitlab](https://about.gitlab.com/2016/04/07/stack-overflow-support-network/)
+
+![Stack Overflow used Gitlab](images/gitlab-stack-overflow.png)
+
+----
+
+## Gitlab: Project manager
 
 *Everything starts with an issue*
 
@@ -73,6 +101,25 @@ Project options
 ### Other integrable services (II)
 
 ![Integrable services](images/project-activated-services-2.png)
+
+---
+
+### DIY
+
+http://doc.gitlab.com/ce/api/
+
+```
+curl --header "PRIVATE-TOKEN: 9koXpg98eAheJpvBs5tK" \
+    "https://my.gitlab/api/v3/projects"
+```
+
+```
+curl https://my.gitlab/api/v3/user?access_token=OAUTH-TOKEN
+```
+
+Or use a ruby gem [gitlab - Dec 2015](https://rubygems.org/gems/gitlab/versions/3.6.1) | [github](https://github.com/NARKOZ/gitlab)
+
+;-)
 
 ----
 
@@ -191,6 +238,8 @@ Moodle CI Test:
   - tags
 ```
 
+Features:
+* Different build tasks for different code versions
 * Stages (dev, pre-prod, prod)
 * Different tasks/tests/actions per stage
 
@@ -230,10 +279,24 @@ You decide the execution type of builds
 
 ----
 
+Overall status on http://shopify.github.io/dashing/
+
+![Dashing](images/dashing.png)
+
+----
+
 # Demo time!
 
 Note:
 - docker start gitlab
+
+----
+
+# So...
+
+1. **Gitlab** as a project manager (Gitlab + Gitlab CI)
+2. With **continuous integration** (spotted everywhere)
+3. Connected to **runners** to do automated tasks execution
 
 ----
 
