@@ -46,6 +46,18 @@ Nope... [Stack Overflow also uses Gitlab](https://about.gitlab.com/2016/04/07/st
 
 ---
 
+## Under the hood
+
+GitLab is a Ruby on Rails application that runs on the following software:
+
+* Ubuntu/Debian/CentOS/RHEL
+* Ruby (MRI) 2.1
+* Git 2.7.4+
+* Redis 2.8+
+* MySQL or PostgreSQL
+
+---
+
 ## gitlab.com for free 
 
 - unlimited public projects
@@ -56,7 +68,7 @@ Nope... [Stack Overflow also uses Gitlab](https://about.gitlab.com/2016/04/07/st
 ## Community Edition (CE)
 
 - Totally free
-- No restrictions
+- No restrictions (10.000 projects)
 - Not all features available
 
 ---
@@ -289,6 +301,8 @@ Overall status on http://shopify.github.io/dashing/
 
 Note:
 - docker start gitlab
+- root / 5iveL!fe
+- git clone ssh://git@192.168.1.2:8022/root/demo.git
 
 ----
 
