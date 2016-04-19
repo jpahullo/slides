@@ -1,8 +1,10 @@
 # Gitlab slides
 
-These slides were prepared for the [Tarragona Developer Meetup]() to present [Gitlab](http://www.gitlab.com).
+These slides were prepared for the [Tarragona Developer Meetup](http://www.meetup.com/Tarragona-Developers-Meetup/events/229781981/) to present [Gitlab](http://www.gitlab.com).
 
-Gitlab is a project management tool (like github), but with continious integration included all-in-one.
+Gitlab is a project management tool (like github), but with continious integration included, all-in-one.
+
+[View them online at github.io!](http://jpahullo.github.io/slides/gitlab/)
 
 # Slides technology
 
