@@ -15,62 +15,29 @@
 
 # Product Requirements
 
-How do you collect requirements?
-
 ---
-
-# Product Requirements
-
 
 Assume you have to build a new software
 
-* How do you collect the requirements?
+---
+
+How do you collect the requirements?
 
 ---
 
-# Product Requirements
-
-
-Assume you have to build a new software
-
-* How do you collect the requirements?
-* How long it takes? Months?
+How long it takes? Weeks? Months?
 
 ---
 
-# Product Requirements
-
-
-Assume you have to build a new software
-
-* How do you collect the requirements?
-* How long it takes? Months?
-* What if #?&ÑqwY%$"@ ?
+What if #?&ÑqwY%$"@ ?
 
 ---
 
-# Product Requirements
-
-
-Assume you have to build a new software
-
-* How do you collect the requirements?
-* How long it takes? Months?
-* What if #?&ÑqwY%$"@ ?
-* Surrounding a table
+Surrounding a table?
 
 ---
 
-# Product Requirements
-
-
-Assume you have to build a new software
-
-* How do you collect the requirements?
-* How long it takes? Months?
-* What if #?&ÑqwY%$"@ ?
-* Surrounding a table
-* Deal with personal positions
+Dealing with personal positions?
 
 ----
 
@@ -88,7 +55,7 @@ Human beings _**learn**_ more quickly while
 
 playing and redoing things. 
 
-----
+---
 
 ## Set the requirements
 # in hours 
@@ -96,20 +63,39 @@ playing and redoing things.
 
 ----
 
-## Please, buy my idea and
-## let's do an 
-## event storming session
+## Let's do
+# event storming
+
+---
+
+## The beginnings
+
+1. Alberto Brandolini <a href="https://twitter.com/ziobrando">@ziobrando</a>
+1. <a href="http://ziobrando.blogspot.com.es/search/label/EventStorming">Event Storming appeared as such on 2013</a>
+1. Book on leanpub: <a href="http://eventstorming.com/">EventStorming</a>
+1. Coaching on <a href="https://www.avanscoperta.it/en/">Avanscoperta</a>
+
+----
+
+## Disclaimer
+
+* Information here is from public domain
+* Some focus or approach here is particular to our own experience
+* Focus of this job: introductory but ready to apply (please!)
+
+----
+
+# Are you ready?
 
 ----
 
 # Ingredients
 
-* Room
-* Big wall
-* Paper roll
+* Room: with big wall and paper roll
 * Stickers of different colours
 * Big pens, one for each participant
 * _**Key people**_, the participants
+
 
 ---
 
@@ -129,7 +115,8 @@ The last magic ingredient ;-)
 
 ---
 
-# Introducing game rules
+## Introduce simple,
+# game rules
 
 1. Stickers and colours
 1. Working in rounds (pomodoro style)
@@ -164,9 +151,10 @@ You will learn! 100% sure!
 # The facilitator
 
 * Who? Anyone (What? *)
-    * Self-learned (make retrospectives)
+    * Self-learned (make retrospective meetings)
     * Taught on facilitating event storming
-* Expert? Not necessary to know anything about the context
+* Expert on the domain? 
+    * Not necessary to know anything about the context
 
 ---
 
@@ -196,9 +184,11 @@ Make participants keeping ...!
 * Deliberative
 * Proactive
 
----
+----
 
 ## Tips for facilitators
+
+---
 
 When discussions appear among participants:
 
@@ -213,11 +203,9 @@ When discussions appear among participants:
 
 ---
 
-## Tips for facilitators
-
 Look at body language. Promote active attitude.
 
-* Motivate opening new kind of events.
+* Motivate opening new kind of events
 * Motivate diving into a part of the problem
 * Make them think about events time line
 * Sitting down is not a problem. Changing viewpoint?
@@ -226,31 +214,33 @@ Keep ALL participants in play
 
 ---
 
-## Tips for facilitators
-
 Make questions
 
 Do not give solutions
 
 ---
 
-## Tips for facilitators
-
 Implicit knowledge have to be **explicit**
 
 ---
 
-## Tips for facilitators
+Focus on the core of the problem 
 
-Focus on the core of the problem
+(your domain on DDD)
 
 ---
 
-## Tips for facilitators
+Build an ubiquitous language (DDD)
 
-Build an ubiquitous language
+---
 
-----
+# Relationships with...
+
+**DDD**: Domain-Driven Desing
+
+**CQRS / ES**: Command Query Responsibility Segregation/Event Sourcing
+
+---- 
 
 # More resources
 
@@ -260,7 +250,7 @@ Build an ubiquitous language
 * http://verraes.net/2013/08/facilitating-event-storming/
 * http://verraes.net/2015/03/event-storming-storytelling-visualisations/
 
----
+----
 
 # More resources
 
