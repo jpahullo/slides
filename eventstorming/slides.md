@@ -19,47 +19,83 @@
 
 Assume you have to build a new software
 
+<img src="images/newproduct.jpg" title="Building a new product" width="70%"/>
+
 ---
 
 How do you collect the requirements?
+
+<a href="https://pxhere.com/en/photo/510878">
+  <img src="images/collecting.jpg" title="Collecting requirements" width="70%"/>
+</a>
+
 
 ---
 
 How long it takes? Weeks? Months?
 
+<a href="https://pxhere.com/en/photo/1060726">
+  <img src="images/time.jpg" title="How long it takes?" width="100%"/>
+</a>
+
 ---
 
 What if #?&ÑqwY%$"@ ?
+
+
+<a href="https://pxhere.com/en/photo/201300">
+  <img src="images/whatifs.jpg" title="How ifs?" width="80%"/>
+</a>
 
 ---
 
 Surrounding a table?
 
+<a href="https://pxhere.com/en/photo/727881">
+  <img src="images/surroundingtable.jpg" title="Surrouding a table?" width="80%"/>
+</a>
+
 ---
 
 Dealing with personal positions?
+
+<a href="https://pxhere.com/en/photo/810626">
+  <img src="images/personalpositions.jpg" title="Dealing wiht personal positions?" width="80%"/>
+</a>
 
 ----
 
 # Key question
 
+---
+
 Collecting and building a set of requirements<br>
-is a learning process?
+is a **learning process**?
 
-----
+<a href="https://www.maxpixel.net/Pen-Write-Articles-Child-Learning-Process-Drawing-1570634">
+  <img src="images/child_learning.jpg" title="Learning process" width="50%"/>
+</a>
 
-# Why not... 
+---
+
+"Children learn as they play.<br>
+Most importantly, in play children<br>
+learn how to learn."<br><br>
+<a href="http://parentingthegods.com/o-fred-donaldson-original-play-ultimate-grace/" target="_blank">O. Fred Donaldson</a>
+
+---
+
 # "Let's Play!"
 
-Human beings _**learn**_ more quickly while
-
-playing and redoing things. 
+<a href="https://www.maxpixel.net/Win-Success-Happy-Children-Play-Video-Game-593313">
+  <img src="images/children_playing.jpg" title="Let's play!" width="70%"/>
+</a> 
 
 ---
 
 ## Set the requirements
 # in hours 
-## instead of months?
+## instead of months
 
 ----
 
@@ -91,36 +127,100 @@ playing and redoing things.
 
 # Ingredients
 
-* Room: with big wall and paper roll
-* Stickers of different colours
-* Big pens, one for each participant
-* _**Key people**_, the participants
+---
+
+Room: with big wall and paper roll
+
+
+<a href="https://www.maxpixel.net/Indoors-Window-Fair-Weather-Architecture-Empty-3065345">
+  <img src="images/empty_office.jpg" title="Empty office" width="80%"/>
+</a>
+
+---
+
+Stickers of different colours
+
+<a href="https://www.maxpixel.net/Sticky-Notes-Messages-Office-Contact-Notes-2566916">
+  <img src="images/stickers.jpg" title="Stickers" width="80%"/>
+</a>
+
+---
+
+Markers, one for each participant
+
+<a href="https://www.maxpixel.net/Business-The-Hand-Pen-Hand-To-Write-Marker-427516">
+  <img src="images/marker.png" title="Markers" width="80%"/>
+</a>
+
+---
+
+_**Key people**_, the participants
+
+<a href="https://www.maxpixel.net/As-Children-Enjoy-River-Splash-Water-The-Bath-1822704">
+  <img src="images/key_people.jpg" title="Key people" width="80%"/>
+</a>
 
 
 ---
 
-# Facilitator
+Facilitator: the last, magic ingredient ;-)
 
-The last magic ingredient ;-)
+<a href="https://pxhere.com/en/photo/1088875">
+  <img src="images/coach.jpg" title="Facilitator" width="80%"/>
+</a>
+
 
 ----
 
 # Steps for event storming
 
+---
+
+## Preparing things and people
+
 1. Prepare the room (preferably empty room)
 1. Put the paper roll fixed on the wall: 20-30 minutes
 1. Give a pen to every participant: 5-10 minutes
 1. Introduce the "game rules": 15-25 minutes
-1. Let's play! (by hours)
 
 ---
 
-## Introduce simple,
+Let's play! (by hours)
+
+<a href="https://www.maxpixel.net/Girl-Celebration-Funny-Painted-Happy-Colorful-438139">
+  <img src="images/lets_play.jpg" title="Let's play" width="80%"/>
+</a>
+
+---
+
+## Introduce
+# simple,
 # game rules
 
-1. Stickers and colours
-1. Working in rounds (pomodoro style)
-1. Prevent* long-term discussions
+---
+
+Stickers and colours
+
+<a href="https://en.wikipedia.org/wiki/Event_storming#/media/File:Event_Storming_actor.jpg">
+  <img src="images/Event_Storming_actor.jpg" title="Sticker and colours" width="70%"/>
+</a>
+
+---
+
+Working in rounds (pomodoro style)
+
+<a href="https://www.maxpixel.net/Time-Items-Black-Clock-Roman-Numerals-Things-2589161">
+  <img src="images/pomodoro.jpg" title="Pomodoro" width="80%"/>
+</a>
+
+---
+
+Prevent* long-term discussions
+
+<a href="https://www.maxpixel.net/Communication-Bleat-Communicate-Discuss-Talk-Sheep-2372148">
+  <img src="images/long_term_discussion.jpg" title="Pomodoro" width="80%"/>
+</a>
+
 
 ----
 
