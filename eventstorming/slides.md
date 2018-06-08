@@ -1,6 +1,6 @@
 # Event Storming
 
-*Jordi Pujol Ahulló* | [@jpahullo](http://twitter.com/jpahullo) | Working at [URV - SREd](http://www.sre.urv.cat)
+*Jordi Pujol Ahulló* | [@jpahullo](http://twitter.com/jpahullo) | [URV - SREd - SRITIC](http://www.sre.urv.cat)
 
 ![Tarragona Developers Meetup](images/meetup_tarragona_developers.png)
 
@@ -116,16 +116,6 @@ learn how to learn."<br><br>
 
 ----
 
-## The beginnings
-
-1. Alberto Brandolini <a href="https://twitter.com/ziobrando">@ziobrando</a>
-1. <a href="http://ziobrando.blogspot.com.es/search/label/EventStorming">Event Storming appeared as such on 2013</a>
-1. Book on leanpub: <a href="http://eventstorming.com/">EventStorming</a>
-1. Coaching on <a href="https://www.avanscoperta.it/en/">Avanscoperta</a>
-1. Before: event-driven modeling
-
-----
-
 ## Content Disclaimer
 
 * Information here is from public domain
@@ -135,9 +125,22 @@ learn how to learn."<br><br>
 
 ----
 
-# Are you ready?
+## The beginnings
+
+1. Alberto Brandolini <a href="https://twitter.com/ziobrando">@ziobrando</a>
+1. <a href="http://ziobrando.blogspot.com.es/search/label/EventStorming">Event Storming appeared as such on 2013</a>
+1. Book on leanpub: <a href="http://eventstorming.com/">EventStorming</a>
+1. Coaching on <a href="https://www.avanscoperta.it/en/">Avanscoperta</a>
+1. Before: event-driven modeling
+
 
 ----
+
+# Event Storming
+
+# is a ...
+
+---
 
 # Methodology
 
@@ -164,15 +167,26 @@ learn how to learn."<br><br>
 
 ---
 
+## Focus on the Core Domain
+
+<a href="https://www.maxpixel.net/Apple-Cores-Refurbishment-Apple-Miniature-Figure-1755928">
+  <img src="images/apple_core_domain.jpg" title="Focus on the core domain" width="70%"/>
+</a>
+
+
+---
+
 ## Participants are key
 
 * Ubiquitous language
-* Focus on Core Domain
 * They WILL learn
-* Quick reaction to
-    * Misunderstandings
-    * Doubts
-    * Problems
+* Quick reaction to: 
+    * misunderstandings, doubts, problems
+
+<a href="https://www.maxpixel.net/Sparrows-Family-Chats-Sparrows-Group-Birds-2759978">
+  <img src="images/sparrows-ubiquitous-language.jpg" title="Ubiquitous language" width="70%"/>
+</a>
+
 
 ---
 
@@ -180,6 +194,11 @@ learn how to learn."<br><br>
 
 * Big picture
 * Design-level modeling
+
+<a href="https://www.maxpixel.net/Corkscrew-Swiss-Army-Knife-Opener-Tools-Metal-572667">
+  <img src="images/Swiss-Army-Knife-versatile.jpg" title="Versatile" width="45%"/>
+</a>
+
 
 ---
 
@@ -246,7 +265,9 @@ Facilitator: referee + coach role
 
 ----
 
-# Steps for event storming
+# How to 
+
+# event storming
 
 ---
 
@@ -281,8 +302,8 @@ Stickers and colours
 
 ---
 
-* orange: domain events; in past participle tense
-* light blue: commands; before domain events; imperative tense
+* <span style="color:orange">orange</span>: domain events; in past participle tense
+* <span style="color:blue">light blue</span>: commands; before domain events; imperative tense
 
 <a href="https://en.wikipedia.org/wiki/Event_storming#/media/File:Event_Storming_actor.jpg">
   <img src="images/Event_Storming_actor.jpg" title="Sticker and colours" width="50%"/>
@@ -292,11 +313,11 @@ Stickers and colours
 
 But there are more colours ;-)
 
-* purple/red: problem; describe it
-* lilac: Process to execute after an event
-* pink: External systems / Bounded context name
-* green: user view (drawings)
-* pale yellow: entity/aggregate; a noun
+* <span style="color:purple">purple/red</span>: problem; describe it
+* <span style="color:palevioletred">lilac</span>: Process to execute after an event
+* <span style="color:pink">pink</span>: External systems / Bounded context name
+* <span style="color:green">green</span>: user view (drawings)
+* <span style="color:yellow">pale yellow</span>: entity/aggregate; a noun
 
 ---
 
@@ -330,7 +351,7 @@ First conquer, then divide
 
 ---
 
-## Flood with domain events
+## Flood with <span style="color:yellow">domain events</span>
 
 * Paper roll = "infinite" timeline
 * From left to right = precedence
@@ -340,49 +361,55 @@ First conquer, then divide
 
 ## Commands and Processes
 
-* **Commands** causes the existing events
-* **Processes** to run due to:
-   * an event exists
-   * a command was run
+* <span style="color:blue">**Commands**</span> causes the existing <span style="color:yellow">events</span>
+* <span style="color:palevioletred">**Processes**</span> to run due to:
+   * an <span style="color:yellow">event</span> exists
+   * a <span style="color:blue">command</span> was run
 
-* A **process** starts other(s) **commands** 
+* A <span style="color:palevioletred">**process**</span> starts other(s) **command(s)** 
 
-Generic timeline: Command / Event / Process
+Generic timeline: <span style="color:blue">Command</span> / <span style="color:yellow">Event</span> (/ <span style="color:palevioletred">Process</span>)
 
 ---
 
-## Which aggregates?
+## Aggregates
 
-On top of every pair Command / Event
+On top of every pair <span style="color:blue">Command</span> / 
+<span style="color:orange">Event</span>
 
-place the pale yellow sticky note with the
-
-Aggregate (or Entity) 
+place the <span style="color:yellow">Aggregate (or Entity) sticky note</span>
 
 ---
 
 ## Boundaries
 
-Outline the boundaries + pink sticky note
+&#128397; outline the boundaries  + <span style="color:pink">boundary sticky note</span>
 
 <a href="http://verraes.net/img/posts/2014-07-23-event-storming-fake-domains-happy-paths/event-storming-wall.jpg">
   <img src="images/event-storming-wall.jpg" title="Event Storming wall with boundaries" width="80%"/>
 </a>
 
+<span style="font-size:0.5em">Photo thanks to Mathias Verraes (under (CC)BY-NC-SA license)</span>
+
 ---
 
 ## Define views and roles
 
-Draw in green sticky notes the **views**. The information necessary
-for the user to take a decision.
+&#128396; Draw <span style="color:green">**views** on sticky notes</span>. 
 
-Draw in small sticky notes the **role** of the user running a **command**.
+The information necessary for the user<br> to take a decision.
+
+Draw in <span style="color:yellow">small sticky notes the **role**</span> of the user running a **command**.
 
 ---
 
-## Results
+## Results: the force side
 
-The force side
+<a href="http://verraes.net/2013/08/facilitating-event-storming/">
+  <img src="images/event-storming-session.jpg" title="Event Storming session" width="60%"/>
+</a>
+
+<span style="font-size:0.5em">Photo thanks to Mathias Verraes (under (CC)BY-NC-SA license)</span>
 
 
 
@@ -443,6 +470,7 @@ First conquer, then divide
 Manage time!
 
 25 minutes for play
+
 5 minutes for retrospective
 
 ---
@@ -479,7 +507,7 @@ Look at body language. Promote active attitude.
 
 * Motivate opening new kind of events
 * Motivate diving into a part of the problem
-* Make them think about events time line
+* Make them think about events (reverse) time line
 * Sitting down is not a problem. Changing viewpoint?
 
 Keep ALL participants in play
@@ -492,7 +520,11 @@ Do not give solutions
 
 ---
 
-Implicit knowledge have to be **explicit**
+Implicit knowledge 
+
+have to be 
+
+### explicit
 
 ---
 
@@ -542,11 +574,13 @@ Build an ubiquitous language (DDD)
 
 # Conclusion
 
-1. Collecting requirements
-1. Traditional way vs innovative event storming
-1. Event storming rules
+1. Collecting requirements / Defining your core model
+1. Motivation: Traditional way vs Event Storming
+1. Ingredients for Event Storming
+1. Event Storming rules
+1. Phases on Event Storming
 1. Participant: How to attend to a session
-1. Facilitator: How to manage a session
+1. Facilitator: How to manage a session + tips
 
 ----
 
@@ -554,6 +588,6 @@ Build an ubiquitous language (DDD)
 
 Special thanks to **SREd**
 
-*Jordi Pujol Ahulló* | [@jpahullo](http://twitter.com/jpahullo) | Working at [URV - SREd](http://www.sre.urv.cat)
+*Jordi Pujol Ahulló* | [@jpahullo](http://twitter.com/jpahullo) | [URV - SREd - SRITIC](http://www.sre.urv.cat)
 
 http://jpahullo.github.io/slides/eventstorming/
