@@ -99,11 +99,6 @@ learn how to learn."<br><br>
 
 ----
 
-## Let's do
-# event storming
-
-----
-
 ## Personal Disclaimer
 
 * I'm a newbie
@@ -122,6 +117,11 @@ learn how to learn."<br><br>
 * Some focus or approach here is particular to our own experience
 * Focus of this job: introductory but ready to apply (please!)
 * Images from public domain are linked to the site.
+
+----
+
+## Let's do
+# event storming
 
 ----
 
@@ -486,7 +486,45 @@ Make participants keeping ...!
 
 ----
 
-## Tips for facilitators
+# Relationships with...
+
+
+**DDD**: Domain-Driven Desing
+
+**CQRS / ES**: Command Query Responsibility Segregation/Event Sourcing
+
+----
+
+# Conclusion
+
+1. Collecting requirements / Defining your core model
+1. Motivation: Traditional way vs Event Storming
+1. Ingredients for Event Storming
+1. Event Storming rules
+1. Phases on Event Storming
+1. Participant: How to attend to a session
+1. Facilitator: How to manage a session
+
+---
+
+### Bonus track
+
+* Tips for facilitators
+* Online resources
+
+----
+
+# Thanks!
+
+Special thanks to **SREd**
+
+*Jordi Pujol Ahulló* | [@jpahullo](http://twitter.com/jpahullo) | [URV - SREd - SRITIC](http://www.sre.urv.cat)
+
+http://jpahullo.github.io/slides/eventstorming/
+
+----
+
+# Tips for facilitators
 
 ---
 
@@ -503,12 +541,31 @@ When discussions appear among participants:
 
 ---
 
-Look at body language. Promote active attitude.
+Look at body language.
 
-* Motivate opening new kind of events
-* Motivate diving into a part of the problem
-* Make them think about events (reverse) time line
-* Sitting down is not a problem. Changing viewpoint?
+Promote active attitude.
+
+Sitting down is not a problem. Changing viewpoint?
+
+---
+
+Motivate
+
+opening new kind of events
+
+---
+
+Motivate
+
+diving into a part of the problem
+
+---
+
+Make them think about events time line
+
+And **reverse** time line!
+
+---
 
 Keep ALL participants in play
 
@@ -537,17 +594,6 @@ Focus on the core of the problem
 
 Build an ubiquitous language (DDD)
 
-
-----
-
-# Relationships with...
-
-
-**DDD**: Domain-Driven Desing
-
-**CQRS / ES**: Command Query Responsibility Segregation/Event Sourcing
-
-
 ----
 
 # More resources
@@ -569,25 +615,3 @@ Build an ubiquitous language (DDD)
 * http://tpierrain.blogspot.com.es/2015/08/event-storming-domain-distillation.html?m=1
 * https://es.slideshare.net/mobile/jeppec/event-storming-48594742
 * https://blog.redelastic.com/corporate-arts-crafts-modelling-reactive-systems-with-event-storming-73c6236f5dd7
-
-----
-
-# Conclusion
-
-1. Collecting requirements / Defining your core model
-1. Motivation: Traditional way vs Event Storming
-1. Ingredients for Event Storming
-1. Event Storming rules
-1. Phases on Event Storming
-1. Participant: How to attend to a session
-1. Facilitator: How to manage a session + tips
-
-----
-
-# Thanks!
-
-Special thanks to **SREd**
-
-*Jordi Pujol Ahulló* | [@jpahullo](http://twitter.com/jpahullo) | [URV - SREd - SRITIC](http://www.sre.urv.cat)
-
-http://jpahullo.github.io/slides/eventstorming/
